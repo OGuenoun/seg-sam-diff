@@ -1,0 +1,28 @@
+# Data directories
+data/
+**/data/
+
+# Diffusers (local clone / submodule / generated files)
+diffusers/
+**/diffusers/
+
+# Models (checkpoints, weights, logs)
+models/
+**/models/
+
+# Optional: common large / generated files
+*.pt
+*.pth
+*.ckpt
+*.bin
+*.safetensors
+
+# Optional: logs & caches
+logs/
+**/logs/
+__pycache__/
+*.pyc
+*.png
+*.jpg
+*.jpeg
+*.zip
